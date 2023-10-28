@@ -106,7 +106,7 @@ namespace InnDataBot
                 }
                 catch (Exception ex)
                 {
-                    string exMessage = "Введены некоректные данные";
+                    string exMessage = "Введены некорректные данные";
                     Console.WriteLine($"Исключение - {ex}\n");
                     await botClient.SendTextMessageAsync(message.Chat.Id, exMessage);
                 }
