@@ -29,7 +29,7 @@ namespace InnDataBot
             }
             catch (Exception ex)
             {
-                return "Введены некоректные данные";
+                return "Введены некорректные данные";
             }
         }
 
